@@ -27,6 +27,7 @@
 
 .container_start {
     background-color: var(--bf-primary-green);
+    color: var(--bf-text-white);
     height: 500px;
     min-width: 250px;
 }
@@ -43,7 +44,6 @@
 .img_portfolio {
     height: 300px;
     min-width: 250px;
-    max-width: 500px;
     background-size: cover;
     background-position: center;
     align-items: center;
@@ -77,6 +77,7 @@
 
 .container_about {
     background-color: var(--bf-primary-green);
+    color: var(--bf-text-white);
     height: 700px;
 }
 /* Section about */
@@ -89,6 +90,8 @@
 .row_top {
     background-color: var(--bf-footer-grey);
     color: var(--bf-text-white);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .cb-icon {
@@ -97,13 +100,10 @@
     margin: 0 0.4rem;
     font-size: 0.8rem;
     aspect-ratio: 1 / 1;
-
-
 }
 
 .cb-facebook { 
     padding: 0.80rem 1.3rem;
-    
 }
 
 .cb-google-p {
