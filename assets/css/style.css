@@ -27,19 +27,18 @@
 
 .container_start {
     background-color: var(--bf-primary-green);
+    height: 500px;
     min-width: 250px;
 }
 
 .img_start {
-    background-color: var(--bf-primary-green);
-    height: 500px;
+    
 }
 
 
 /* Section start */
 
 .img_portfolio {
-    background-color: black;
     height: 300px;
     min-width: 250px;
     max-width: 500px;
