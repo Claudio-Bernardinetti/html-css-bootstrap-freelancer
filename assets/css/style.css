@@ -1,5 +1,26 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+
+
+:root {
+    --bf-nav-footer-dark:#2c3e50;
+    --bf-primary-green:#1abc9c;
+    --bf-img-bg-red :#ba4b63;
+    --bf-img-bg-lightblue:#1ea4b6;
+    --bf-img-bg-dark:#140f0f;
+    --bf-img-bg-blue:#1c83c1;
+    --bf-img-bg-purple:#0e38b5;
+    --bf-img-bg-grey:#ccb2a3;
+    --bf-footer-grey:#3a546d;
+    --bf-text-white: #ffffff;
+    --bf-text-black: #333333;
+}
+
+.nav_bar {
+    background-color: var(--bf-nav-footer-dark);
+    height: 90px;
+}
+/* Header */
+
+.container_start {
+    background-color: var(--bf-primary-green);
+    height: 500px;
 }
