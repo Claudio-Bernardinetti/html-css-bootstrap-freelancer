@@ -85,3 +85,17 @@
     height: 600px;
 }
 /* Section contact me */
+
+.row_top {
+    background-color: var(--bf-footer-grey);
+}
+/* Footer top */
+
+.row_bottom {
+    background-color: var(--bf-nav-footer-dark);
+    height: 100px;
+    color: var(--bf-text-white);
+    align-items: center;
+}
+/* Footer bottom */
+/* Footer */
