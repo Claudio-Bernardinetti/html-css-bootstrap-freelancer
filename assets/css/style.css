@@ -88,6 +88,34 @@
 
 .row_top {
     background-color: var(--bf-footer-grey);
+    color: var(--bf-text-white);
+}
+
+.cb-icon {
+    border: 1px solid var(--bf-text-white);
+    border-radius: 50%;
+    margin: 0 0.4rem;
+    font-size: 0.8rem;
+    aspect-ratio: 1 / 1;
+
+
+}
+
+.cb-facebook { 
+    padding: 0.80rem 1.3rem;
+    
+}
+
+.cb-google-p {
+    padding: 0.80rem 1rem;
+}
+
+.cb-twitter {
+    padding: 0.9rem 1.13rem;
+}
+
+.cb-linkedin {
+    padding: 0.90rem 1.18rem;
 }
 /* Footer top */
 
@@ -96,6 +124,7 @@
     height: 100px;
     color: var(--bf-text-white);
     align-items: center;
+    font-size: 0.8rem;
 }
 /* Footer bottom */
 /* Footer */
