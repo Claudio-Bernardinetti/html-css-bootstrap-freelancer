@@ -1,4 +1,8 @@
-
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 :root {
     --bf-nav-footer-dark:#2c3e50;
@@ -17,10 +21,55 @@
 .nav_bar {
     background-color: var(--bf-nav-footer-dark);
     height: 90px;
+    min-width: 250px;
 }
 /* Header */
 
 .container_start {
     background-color: var(--bf-primary-green);
+    min-width: 250px;
+}
+
+.img_start {
+    background-color: var(--bf-primary-green);
     height: 500px;
 }
+
+
+/* Section start */
+
+.img_portfolio {
+    background-color: black;
+    height: 300px;
+    min-width: 250px;
+    max-width: 500px;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.img_cabin {
+    background-image: url(../img/cabin.png); 
+}
+
+.img_cake {
+    background-image: url(../img/cake.png);
+}
+
+.img_circus {
+    background-image: url(../img/circus.png);
+}
+
+.img_game {
+    background-image: url(../img/game.png);
+}
+
+.img_safe {
+    background-image: url(../img/safe.png);
+}
+
+.img_submarine {
+    background-image: url(../img/submarine.png);
+}
+/* Section portfolio */
