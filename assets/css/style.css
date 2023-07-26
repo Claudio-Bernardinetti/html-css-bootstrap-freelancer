@@ -18,10 +18,20 @@
     --bf-text-black: #333333;
 }
 
-.nav_bar {
+.cb_white_cr {
+    color: var(--bf-text-white);
+}
+
+.cb_white_bg {
+    color: var(--bf-text-white);
+}
+
+.cb_nav_bg {
     background-color: var(--bf-nav-footer-dark);
-    height: 90px;
-    min-width: 250px;
+}
+
+.cb_bs_white {
+    border: 1px solid var(--bf-text-white);
 }
 /* Header */
 
