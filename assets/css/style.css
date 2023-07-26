@@ -18,6 +18,8 @@
     --bf-text-black: #333333;
 }
 
+
+
 .cb_white_cr {
     color: var(--bf-text-white);
 }
@@ -87,6 +89,7 @@ footer a {
 /* Section start */
 
 .container_portfolio {
+    margin-top: 3rem;
     margin-bottom: 3rem;
     padding: 0 15%;
 }
@@ -134,16 +137,18 @@ footer a {
 /* Section about */
 
 .container_me {
-    margin-top: 2rem;
+    height: 600px;
+    margin-top: 1rem;
     padding: 3rem 15%;
 }
 /* Section contact me */
 
 .row_top {
-    background-color: var(--bf-footer-grey);
+    background-color: var(--bf-footer-grey);  
     color: var(--bf-text-white);
     padding-top: 2rem;
     padding-bottom: 2rem;
+    overflow: hidden;
 }
 
 .cb-icon {
@@ -168,6 +173,10 @@ footer a {
 
 .cb-linkedin {
     padding: 0.90rem 1.18rem;
+}
+
+.cb_height {
+    max-height: 200px;
 }
 /* Footer top */
 
